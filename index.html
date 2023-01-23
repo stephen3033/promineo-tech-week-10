@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+    <div class="container">
+      <form>
+          <div class="row">
+              <div class="col-lg">
+                  <label>First Name</label>
+                  <input type="text" class="form-control" id="first-name" placeholder="Enter First Name">
+              </div>
+              <div class="col-lg">
+                  <label>Last Name</label>
+                  <input type="text" class="form-control" id="last-name" placeholder="Enter Last Name">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg">
+                  <label>Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg">
+                  <label>Password</label>
+                  <input type="password" class="form-control" placeholder="Enter Password">
+              </div>
+          </div>
+      </form>
+
+      <div class="row">
+        <div class="col-lg">
+            <table id="user-info" class="table">
+                <tr>
+                  <th>#</th>
+                  <th>First</th>
+                  <th>Last</th>
+                  <th>Email</th>
+                </tr>
+            </table>
+        </div>
+      </div>
+    </div>
+    <button id="submit" class="btn btn-primary form-control">Submit</button>
+
+    <script src="test.js"></script>
+    <script src="submit.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
